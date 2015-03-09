@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--header, page title, link to stylesheet-->
+<head>
+
+	<title>
+		Multimedia Portfolio of Maya Dangerfield
+	</title>
+  <meta name="author" content= "Maya Dangerfield"/>
+  <meta name="description" content="Multimedia website for Maya Dangerfield, freelance jouralist and student at the CUNY Graduate School of Journalism. NYC based interactive projects, video assignments and inspirations. "/>
+
+	<link rel= "stylesheet" href="stylesheets/style.css" /> 
+</head>
+<!--title, and navigation ( need to link to the next project, which will follow imm. after this one, on the page) -->
+	<body>
+    <div id="header">
+  <H1> Multimedia and Interactive Portfolio by Maya Dangerfield </H1>
+  <H3> Assignments, projects and inspiration, this is where I explain how I developed the concept of the graphics.ssignments, projects and inspiration, this is where I explain how I developed the concept of the graphics.</H3>
+</div>
+<div id="navigation">
+  <ul> 
+    <li><a href="#interactivegame"> Next Project</a> </li>
+    <li> Previous Project</li>
+    <li> <a href="http://mayadangerfield.journalism.cuny.edu/"> Home</a></li>
+  </ul> </div>
+
+<!-- beginning of content, lefthand side-->
+<div class="content">
+  <div class="column" id="left">
+    <img src= "images/layerednyc_map_vector.jpg">
+    <p>  Lorem ipsum dolor sit amet, vis eu posse iriure dignissim. Vim at congue impetus deserunt. Persius salutandi at eos, te probo possim quo. Nostro fastidii pri id. Ad cum ipsum theophrastus. Latine discere eos in, eu tale falli suavitate nec, deleniti placerat eam no.</p>
+  </div>
+<!-- beginning of content, right side-->
+
+  <div class="column" id="right">
+<div id="explain">
+<H2> Lorem ipsum dolor sit amet,explaining whats happening here vis eu posse iriure</H2></div>
+    <img src= "images/layerednyc_map_vector.jpg">
+    <img src= "images/layerednyc_map_vector.jpg">
+    <img src= "images/layerednyc_map_vector.jpg">
+    <div class="innercolumn" id="first"> 
+    <p> Lorem ipsum dolor sit amet, vis eu posse iriure dignissim. Vim at congue impetus deserunt. Persius salutandi at eos, te probo possim quo. Nostro fastidii pri id. Ad cum ipsum theophrastus.</p>
+
+    <div class="innercolumn" id="second"> 
+    <p> Lorem ipsum dolor sit amet, vis eu posse iriure dignissim. Vim at congue impetus deserunt. Persius salutandi at eos, te probo possim quo. Nostro fastidii pri id. Ad cum ipsum theophrastus.</p>
+    <p> Lorem ipsum dolor sit amet, vis eu posse iriure dignissim. Vim at congue impetus deserunt. Persius salutandi at eos, te probo possim quo. Nostro fastidii pri id. Ad cum ipsum theophrastus.Ex dolorum accusamus scripserit pro, eum aliquid legendos ex, ei dicta omittam disputando mel. Et has paulo iisque, an brute voluptatum adversarium sit, est torquatos forensibus ne. Duo quem intellegam intellegebat eu, mea admodum legendos suscipiantur ne. Qui an meis ornatus dissentiet, vix populo incorrupte conclusionemque ne. Nihil accumsan intellegam eum ea, cu accusata intellegam has. Facete putant partiendo sea ne, ex qui prima reque animal. Cu mei tollit oportere corrumpit.</p>
+    <div class="innercolumn" id="third"> 
+    <p> Lorem ipsum dolor sit amet, vis eu posse iriure dignissim. Vim at congue impetus deserunt. Persius salutandi at eos, te probo possim quo. Nostro fastidii pri id. Ad cum ipsum theophrastus.</p> 
+</div>
+</div>
