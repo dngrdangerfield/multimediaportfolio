@@ -1,17 +1,19 @@
-<!DOCTYPE html> 
-<head> 
-<link rel= "stylesheet" href="stylesheets/stylesheet.css" /> 
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Week 6 - Intro to JavaScript</title>
 </head>
-
 <body>
-	<div class="cd-scrolling-bg cd-bg-1">
-		<H1>Practice</H1>
-	</div>
-	<div class="cd-scrolling-bg cd-color-2">
-		<div class="cd-container"> <p> shsbhs hs hsbs  shs  shbs s ssbsbsubssbub </p>
-		</div>
-	</div>
-</div>
-</body>
+  <div id="container"></div>
 
-</!DOCTYPE html>
+  <script> 
+  document.write(" Hello, World!");
+  // how to create elements; console.log() tells you page to show you something
+  var h = document.createElement("h1"); console.log(h);
+  var t = document.createTextNode("Hello, Word!"); 
+  h.appendChild(t);
+  var c = document.getElementById("container");
+  c.appendChild(h);
+  </script>
+</body>
+</html>
