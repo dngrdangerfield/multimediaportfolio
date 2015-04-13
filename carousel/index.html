@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1
+ {
+  margin-bottom: 14px;
+  color: black;
+  font-family: "Franklin Gothic Medium"; 
+  text-align:center;
+  font-size: 30px;
+}
+h2{
+color: black;
+font-family: "Franklin Gothic Medium";
+font-size: 20px;
+text-align: center;
+}
+body{
+	font-family: "Goudy Old Stlye";
+	font-size: 16px;
+}
+p{
+    border:1px:white;
+    padding:10px;
+    margin:30px;}
+}
+
+ </style>	
+<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+ <title>Motivational Posters from Schmidt</title>
+
+</head>
+<body>
+	<div id = "framework" style=" 
+	margin-left: 150px;
+	margin-right: 150px;
+    padding: 10px;
+    border: 10px;"
+>
+  <h1 id="headline">Motivational Posters from Schmidt</h1>
+  <h2 id="subhead"> Sage Words of Wisdom from the 'New Girl's' Favorite Narcissist</h2>
+  <div id="text" style ="overflow: scroll;
+   width: 700px;
+    height:100px;
+    margin:auto;
+     padding:10px;
+     border:10px;">
+  	<p>ipsum dolor sit amet, consectetur adipisicing elit,
+sed do eiusmod tempor incididunt ut labore et dolore magna
+aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Duis aute irure dolor in reprehenderit in voluptate velit
+esse cillum dolore eu fugiat nulla pariatur. Excepteur
+sint occaecat cupidatat non proident, sunt in culpa qui
+officia deserunt mollit anim id est laborum.</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+sed do eiusmod tempor incididunt ut labore et dolore magna
+aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Duis aute irure dolor in reprehenderit in voluptate velit
+esse cillum dolore eu fugiat nulla pariatur. Excepteur
+sint occaecat cupidatat non proident, sunt in culpa qui
+officia deserunt mollit anim id est laborum. </p>
+  </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<div class ="faderbox" style ="margin: auto;
+  padding-left: 80px;">
+  
+ <div class="fade">
+  <div><img src= "images/image1.jpg"></div>
+  <div><img src= "images/image2.jpg"></div>
+  <div><img src= "images/image3.jpg"></div>
+  <div><img src= "images/image4.jpg"></div>
+  <div><img src= "images/image5.jpg"></div> 
+</div>
+</div>
+</div>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"> </script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+
+  <script type="text/javascript">
+$(document).ready(function(){
+  $('.fade').slick({
+  	dots:true,
+  	infinite: true,
+  	speed:700,
+  	autoplay:true,
+  	autoplaySpeed:1000,
+  	arrows:true,
+  	slidesToShow:1,
+  	slidesToScroll:1
+})
+});
+$(document).ready(function(){
+	$("#text").scroll(function(){
+		var scrollTop = $('#text').scrollTop();
+		console.log(scrollTop);
+	});
+});
+
+
+</script>
+</body>
+</html>
