@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Week 7 - Arrays, Objects and Loops</title>
+</head>
+<body>
+  <h1 id="headline">Storing Data in JavaScript</h1>
+  <ul id="list">
+
+  </ul>
+
+  <script> 
+  var books=[ 'Harry Potter','Unbreakable Kimmy', 'MASH', '30 Rock']
+  //refers to the list of stuff above.
+  //var i= the first thing in the list
+  //var i++ describes the number of times you want it to appear
+for (var i =0;i<books.length; i++)
+
+{
+	console.log (books[i]);
+//this start writing stuff on the page- your main box
+//var item-doc. create element
+	var item=document.createElement ('li');
+//this refers to information inside of this element--- aka a text node.
+	var book = document.createTextNode(books[i]);
+//add to this element- a box, inside a box, inside a box, 
+	item.appendChild(book);
+//refers back to the larger box. 
+	var container=
+	document.getElementById('list');
+//add this to the 
+	container.appendChild(item);
+}
+
+//how to change a headline in html
+document.getElementById('headline').innerHTML='My Favorite Books'
+
+
+  var favoriteBook= {
+  	title: 'Harry Potter',
+  	author: 'JK Rowling',
+  	pubYear:'1997',}
+
+  console.log(favoriteBook);
+  console.log(favoriteBook.author);
+ 
+
+  </script>
+</body>
+</html>
